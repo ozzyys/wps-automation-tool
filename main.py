@@ -69,7 +69,7 @@ pyautogui.click(378 * screen_width_multiplier, 99 * screen_height_multiplier)
 time.sleep(1)
 
 print(f"[*] The file is being selected.")
-pyautogui.write(f"Brevodan_cekilen_temiz_full_list(050724).xlsx")
+pyautogui.write(f"emails.xlsx")
 pyautogui.press("down")
 pyautogui.press("enter") # ilk enter dosyayı seçmek için
 pyautogui.press("enter") # ikinci enter dosyayı onaylamak için
@@ -82,8 +82,8 @@ time.sleep(0.5)
 # been clicked.
 # raise 1
 
-starting_row = 12
-ending_row = 150 + 12
+starting_row = 0
+ending_row = 150
 
 while True:
     get_time = datetime.datetime.now()
