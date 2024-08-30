@@ -1,5 +1,5 @@
-WPS Version: 12.2.0.1
+wps office version: 12.2.0.1
 
-Download the repo.
+download the repo.
 
 type "pip install -r requirements.txt" then run the main.py file.
